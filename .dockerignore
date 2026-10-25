@@ -1,0 +1,43 @@
+# Git
+.git/
+.gitignore
+
+# Build output
+**/bin/
+**/obj/
+artifacts/
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+**/*.log
+**/*.tmp
+**/*.swp
+**/*~
+
+# Test results
+**/TestResults/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+**/appsettings.*.Local.json
+**/secrets.json
+
+# Docker files not needed in the build context
+docker-compose.yml
+compose.override.yaml
+docker-compose.override.yml
+
+# Documentation
+README.md
